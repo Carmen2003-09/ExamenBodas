@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodas</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenid@s a la sección de vestidos de novia. </h1>
+    </header>
+
+    <main>
+        <section id="imagenes">
+            <h2>Galería</h2>
+            <div class="imagen-contenedor">
+                <img src="./image/imagen1.jpeg" alt="Descripción de la imagen 1">
+                <figcaption>Imagina un vestido de princesa para tu boda.</figcaption>
+            </div>
+            <div class="imagen-contenedor">
+                <img src="./image/imagen2.jpeg" alt="Descripción de la imagen 2">
+                <figcaption>Imagina un vestido que resalte tu figura para tu boda.</figcaption>
+            </div>
+            <div class="imagen-contenedor">
+                <img src="./image/imagen3.jpeg" alt="Descripción de la imagen 3">
+                <figcaption>Imagina un vestido único, hecho a tu medida y con tu estilo.</figcaption>
+            </div>
+        </section>
+    </main>
+    <section id="formulario">
+        <button id="btn-formulario">RSVP</button>
+    </section>
+    
+    <script>
+        document.getElementById('btn-formulario').addEventListener('click', function() {
+            window.location.href = 'formulario/formulario.html'; 
+        });
+    </script>
+    <footer>
+        <p>&copy; (c)Tecnm-CampusPachuca-ProgramaciónWeb-Examen-Tania</p>
+    </footer>
+</body>
+</html>
